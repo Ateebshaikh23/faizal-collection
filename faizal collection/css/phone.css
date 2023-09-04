@@ -1,0 +1,51 @@
+.right {
+    position: absolute;
+    right: -234px;
+    top: 12px;
+    padding: 2px;
+    display: inline-block;
+}
+
+.btn {
+
+    margin: 0px -11px;
+    position: absolute;
+    color: rgb(243, 239, 239);
+    padding: 1px -20px;
+    border: 2px solid #f8f7f7;
+    border-radius: 9px;
+    font-size: 7px;
+    right: -179px;
+}
+
+.mid {
+    display: block;
+    width: 487px;
+    margin: -2px -35px;
+    border: 2px solid rgb(178, 178, 237);
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse;
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+
+.faizal {
+    display: block;
+    border: 2px solid black;
+    margin: 1px auto;
+    padding: 2px 2px;
+    width: 8%;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 8px;
+}

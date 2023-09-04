@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>project</title>
+</head>
+<link rel="stylesheet" media="screen and (max-width:375px)" href="css/phone.css">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+<style>
+    /* css reset */
+    body {
+        color: white;
+        font-family: "Sofia", sans-serif;
+        margin: 0px;
+        padding: 0px;
+        background: url(image/background\ image.jpg);
+        height: 100% 100%;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        /* background-size: auto; */
+        background-attachment: fixed;
+        flex-wrap: wrap;
+    }
+
+    .left div {
+        text-align: center;
+    }
+
+    .left {
+        position: absolute;
+        left: 34px;
+        top: 20px;
+        display: inline-block;
+        /* border: 2px solid red; */
+        line-height: 12px;
+        font-size: 20px;
+        text-align: center;
+        animation: ateeb2 4s ease 4s infinite;
+    }
+    
+ /* @keyframes ateeb2 {
+        0% {
+            top: 0px;
+            left: 0px;
+
+        }
+
+        25% {
+            top: 40px;
+            left: 0px;
+
+
+        }
+
+        75% {
+            top: 40px;
+            left: 40px;
+        }
+
+        100% {
+            top:0px;
+            left:40px;
+        }
+    } */
+
+    .left img {
+        width: 53px;
+        filter: invert(100);
+    }
+
+    .mid {
+        display: block;
+        width: 600px;
+        margin: 20px auto;
+        /* border: 2px solid rgb(178, 178, 237); */
+
+    }
+
+    .right {
+        position: absolute;
+        right: 34px;
+        top: 20px;
+        display: inline-block;
+        /* border: 2px solid rgb(210, 234, 102); */
+        /* flex-wrap: wrap; */
+
+    }
+
+    .navbar {
+        display: inline-block;
+    }
+
+    .navbar li {
+        display: inline-block;
+    }
+
+    .navbar li a {
+        color: white;
+        text-decoration: none;
+        padding: 24px 21px;
+        font-size: 15px;
+    }
+
+    .navbar li a:hover,
+    .navbar li a .active {
+        text-decoration: underline;
+        color: grey;
+    }
+
+    .btn {
+        font-family: "Sofia", sans-serif;
+        margin: 0px 9px;
+        background-color: rgb(98 199 199 / 0%);
+        color: rgb(243, 239, 239);
+        padding: 3px 12px;
+        border: 2px solid #f8f7f7;
+        border-radius: 10px;
+        font-size: 15px;
+    }
+
+    .btn:hover {
+        background-color: #ebebeb;
+        color: gray;
+    }
+
+    .container {
+        border: 2px solid #f2e9e9;
+        margin: 104px auto;
+        padding: 12px 12px;
+        width: 33%;
+        border-radius: 10px;
+        position: relative;
+        right: 2px;
+    }
+
+    .from-group input {
+        text-align: center;
+        display: block;
+        width: 352px;
+        padding: 6px;
+        border: 2px solid black;
+        margin: 3px auto;
+        border-radius: 10px;
+        font-family: 'baloo bhai';
+    }
+
+    .container h2 {
+        text-align: center;
+
+    }
+
+    .container .btn {
+        display: block;
+        margin: 2px auto;
+        padding: 2px 158px;
+        color: #121010;
+        background: #d8cfc0;
+    }
+
+    .container .btn:hover {
+        color: rgb(255, 255, 255);
+        background-color: black;
+    }
+
+    .faizal {
+        display: block;
+        border: 2px solid black;
+        margin: 2px auto;
+        padding: 2px 2px;
+        width: 34%;
+        border-radius: 10px;
+        text-align: center;
+        font-size: 23px;
+    }
+
+    .footer {
+        border: 2px solid rgb(255, 255, 255);
+        text-align: center;
+        color: black;
+        padding: 2px 2px;
+        margin: 4px 4px;
+        border-radius: 10px;
+        font-size: 23px;
+        background-color: rgb(158, 225, 226);
+    }
+
+    /* .header {
+        /* flex-wrap: wrap; 
+    } */
+</style>
+
+<body>
+    <header class="header">
+        <!-- left bar for logo -->
+        <div class="left">
+            <img src="image/avatars-000277082950-t4cdej-t500x500.png" alt="">
+            <div>
+                faizal collection
+            </div>
+        </div>
+        <!-- mid bar for navigation -->
+        <div class="mid">
+            <ul class="navbar">
+                <li> <a href="home.html" class="active">Home</a></li>
+                <li> <a href="about us.html">About us </a></li>
+                <li> <a href="#"> track & t-shirt </a></li>
+                <li> <a href="contact us .html">Contact us</a></li>
+            </ul>
+        </div>
+        <!-- right bar for button -->
+        <div class="right">
+            <a href="/.html">
+                <button class="btn">Contact us </button>
+            </a>
+            <button class="btn">Email now</button>
+        </div>
+    </header>
+    <div class="faizal">
+        The best shopping platform in Pune
+    </div>
+    <div class="container">
+        <h2>
+            Join faizal collection for branded cloth
+            <form action="action.php">
+                <div class="from-group">
+                    <input type="text" name="" placeholder="Enter your name">
+                </div>
+                <div class="from-group">
+                    <input type="email" name="" placeholder="Enter your Email">
+                </div>
+                <div class="from-group">
+                    <input type="number" name="" placeholder="Enter your number">
+                </div>
+                <div class="from-group">
+                    <input type="date" name="" placeholder="Enter your DOB">
+                </div>
+                <button class="btn">Submit</button>
+            </form>
+
+        </h2>
+    </div>
+    <footer class="footer">
+        <div class="down">
+            thank you for visiting the website
+        </div>
+    </footer>
+</body>
+
+</html>
